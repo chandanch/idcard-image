@@ -67,8 +67,8 @@ function App() {
           <p>901231232</p>
         </div>
       </div>
-      <button className="download-id-btn" onClick={downloadIdCardAsImage} data-html2canvas-ignore="true">Download Id</button>
-      <button className="print-id-btn" onClick={printIdCard} data-html2canvas-ignore="true">Print ID</button>
+      <button className="button download-id-btn" onClick={downloadIdCardAsImage} data-html2canvas-ignore="true">Download Id</button>
+      <button className="button print-id-btn" onClick={printIdCard} data-html2canvas-ignore="true">Print ID</button>
     </div>
   );
 }
